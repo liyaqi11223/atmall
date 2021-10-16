@@ -1,0 +1,298 @@
+#hd_nav {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 32px;
+}
+#hd_nav a,
+#hd_nav .caret {
+  color: #999999;
+}
+#hd_nav a:hover {
+  color: #ff0036;
+}
+#hd_nav #hd_left {
+  float: left;
+  font-size: 12px;
+}
+#hd_nav #hd_left #denglu {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+#hd_nav #hd_left #zhuce {
+  padding: 0 10px;
+}
+#hd_nav #hd_right {
+  float: right;
+  font-size: 12px;
+}
+#hd_nav #hd_right > ul .havb_,
+#hd_nav #hd_right > ul .shoucang {
+  position: relative;
+}
+#hd_nav #hd_right > ul .havb_ > #havb,
+#hd_nav #hd_right > ul .shoucang > #havb {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 92px;
+  background-color: white;
+  padding: 8px 10px;
+  line-height: 1.6;
+}
+#hd_nav #hd_right > ul .havb_ > #shoucang,
+#hd_nav #hd_right > ul .shoucang > #shoucang {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 80px;
+  background-color: white;
+  padding: 8px 10px;
+  line-height: 1.6;
+}
+#hd_nav #hd_right > ul .havb_:hover {
+  background-color: white;
+}
+#hd_nav #hd_right > ul .havb_:hover #havb {
+  display: block;
+}
+#hd_nav #hd_right > ul .havb_:hover .caret {
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  border-top: 0;
+}
+#hd_nav #hd_right > ul .shoucang:hover {
+  background-color: white;
+}
+#hd_nav #hd_right > ul .shoucang:hover #shoucang {
+  display: block;
+}
+#hd_nav #hd_right > ul .shoucang:hover .caret {
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  border-top: 0;
+}
+#hd_nav #hd_right > ul > li {
+  float: left;
+  padding: 0 10px;
+}
+#hd_nav #hd_right > ul #business_ {
+  position: relative;
+}
+#hd_nav #hd_right > ul #business_ > #business {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 122px;
+  padding: 8px 10px;
+  line-height: 22px;
+}
+#hd_nav #hd_right > ul #business_ > #business h3 {
+  font-size: 12px;
+  color: #666666;
+  font-weight: 900;
+}
+#hd_nav #hd_right > ul #business_:hover {
+  background-color: white;
+}
+#hd_nav #hd_right > ul #business_:hover #business {
+  display: block;
+}
+#hd_nav #hd_right > ul #business_:hover .caret {
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  border-top: 0;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore {
+  position: absolute;
+  display: none;
+  left: 174px;
+  width: 1198px;
+  padding: 25px 0;
+  background-color: white;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #hot {
+  width: 455px;
+  float: left;
+  padding-left: 30px;
+  overflow: hidden;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #hot > ul {
+  width: 475px;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #hot > ul > li {
+  float: left;
+  padding: 6px 0;
+  width: 84px;
+  line-height: 1.4;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #hot > h2 {
+  font-size: 16px;
+  color: #f56a00;
+  padding-bottom: 8px;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #market {
+  width: 455px;
+  float: left;
+  padding-left: 30px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+  overflow: hidden;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #market > ul {
+  width: 455px;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #market > ul > li {
+  float: left;
+  padding: 6px 0;
+  width: 87px;
+  line-height: 1.4;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #market > h2 {
+  font-size: 16px;
+  color: #2263d4;
+  padding-bottom: 8px;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #help {
+  width: 196px;
+  float: left;
+  padding-left: 30px;
+  overflow: hidden;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #help > ul {
+  width: 196px;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #help > ul > li {
+  float: left;
+  padding: 6px 0;
+  width: 95px;
+  line-height: 1.4;
+}
+#hd_nav #hd_right > ul #navmore_ > #navmore > #help > h2 {
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 8px;
+}
+#hd_nav #hd_right > ul #navmore_:hover {
+  background-color: white;
+}
+#hd_nav #hd_right > ul #navmore_:hover #navmore {
+  display: block;
+}
+#hd_nav #hd_right > ul #navmore_:hover .caret {
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  border-top: 0;
+}
+form {
+  margin: 100px auto;
+  text-align: unset;
+}
+form dd {
+  display: inline-block;
+  width: 610px;
+}
+form dd > input {
+  width: 223px;
+  height: 47px;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  font-size: 14px;
+}
+form dt {
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  padding-right: 10px;
+  font-weight: 400;
+  width: 120px;
+  text-align: right;
+  width: 610px;
+}
+form dl {
+  margin-top: 20px;
+}
+form button {
+  display: block;
+  margin-top: 20px;
+  width: 180px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #ff0036;
+  color: white;
+  border: 0;
+  margin: 20px auto;
+}
+footer > div {
+  border-top: 1px solid #d1d7dc;
+  background-color: #fff;
+  padding-top: 33px;
+}
+footer > div > .tmall_guide {
+  width: 1190px;
+  margin: auto;
+  padding-bottom: 44px;
+  background: url(../../images/footer_cat136-50.png) 45px bottom no-repeat;
+  background-size: 68px 25px;
+}
+footer > div > .tmall_guide > dl {
+  float: left;
+  margin: 0 82px;
+}
+footer > div > .tmall_guide > dl > dt {
+  font-size: 16px;
+  font-weight: 700;
+  color: #646464;
+  height: 30px;
+  line-height: 30px;
+}
+footer > div > .tmall_guide > dl > dd > a {
+  display: block;
+  font-size: 12px;
+  color: #8b8b8b;
+  height: 20px;
+  line-height: 20px;
+}
+footer > div > .tmall_guide > dl > dd > img {
+  width: 105px;
+  height: 105px;
+}
+footer > .copy_right {
+  padding-bottom: 25px;
+  border-top: 2px solid #ff0036;
+}
+footer > .copy_right > .copy_rightm {
+  width: 1190px;
+  margin: auto;
+}
+footer > .copy_right > .copy_rightm > .about_tmall {
+  font-size: 12px;
+  line-height: 25px;
+  padding: 5px 0;
+}
+footer > .copy_right > .copy_rightm > .about_tmall > a {
+  color: #fff;
+  text-decoration: none;
+}
+footer > .copy_right > .copy_rightm > .aboutali {
+  font-size: 12px;
+  padding: 5px 0;
+}
+footer > .copy_right > .copy_rightm > .aboutali > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 5px;
+}
+footer > .copy_right > .copy_rightm > .aboutali > span {
+  color: #fff;
+}
+footer > .copy_right > .copy_rightm > .about_add {
+  padding: 5px 0;
+}
+footer > .copy_right > .copy_rightm > .about_add > span {
+  font-size: 12px;
+  padding-right: 60px;
+}
+footer > .copy_right > .copy_rightm > p {
+  font-size: 12px;
+}

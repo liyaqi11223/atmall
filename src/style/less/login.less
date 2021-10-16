@@ -1,0 +1,199 @@
+header{
+	background-color: #ffffff;
+	>div{
+		width: 1200px;
+		margin: 0 auto;
+		padding: 22px 0;
+	}
+}
+
+
+main{
+	position: relative;
+	background-color: #dd2726;
+	.bg{
+		position: relative;
+		width: 1200px;
+		margin: 0 auto;
+		>a{
+			display: block;
+			top: 70px;
+			position: absolute;
+			width: 630px;
+			height: 440px;
+			
+		}
+	}
+	#bg_right{
+		position: absolute;
+		top: 91px;
+		right: 43px;
+		width: 350px;
+    	min-height: 350px;
+   		padding: 25px 25px 23px;
+    	color: #6c6c6c;
+    	background: #fff;
+    	margin: 0 auto;
+		>.tabs{
+			>ul{
+				// position: relative;
+				margin-bottom: 20px;
+				>li{
+					float: left;
+					a{
+						font-weight: 700;
+						color: black;
+						text-decoration: none;
+						margin: 0 10px 0 0;
+						border-bottom: 2px solid transparent;
+						// height: 18px;
+						// line-height: 18px;
+					}
+		
+				}
+				>li:nth-child(3)>span{
+					position: absolute;
+					right: 0;
+					top: -10px;
+					font-size: 52px;
+					color: #ff0036;
+					// right: 0;
+				}
+				>.active>a{
+					border-color: black;
+				}
+			}
+			>div{
+					position: absolute;
+					display: none;
+					width: 85%;
+					>form{
+						button{
+							width: 100%;
+							background-color: #ff0036;
+							color: #ffffff;
+							font-size: 16px;
+							height: 42px;
+							line-height: 42px;
+							border: transparent;
+							margin-top: 26px;
+						}
+						>div{
+							// width: 300px;
+							position: relative;
+							span{
+								position: absolute;
+								top: 0;
+								display: inline-block;
+								width: 40px;
+								height: 42px;
+								font-size: 24px;
+								line-height: 40px;
+								text-align: center;
+								background-color: #cccccc;
+								color: #ffffff;
+							}
+							input{
+								height: 42px;
+								border: 1px solid #ccc;
+								width: 100%;
+								padding-left: 45px;
+							}
+							a{
+								position: absolute;
+								top: 13px;
+								right: 13px;
+								font-size: 12px;
+								color: #6c6c6c;
+							}
+							select{
+								position: absolute;
+								top: 1px;
+								left: 40px;
+								border: none;
+								height: 40px;
+								line-height: 40px;
+								width: 60px;
+								cursor: pointer;
+								appearance:none;
+								padding-left:5px;
+								padding-right: 20px;
+							}
+							b{
+								font-size: 24px;
+								position: absolute;
+								left: 79px;
+								top: 5px;
+								color: #0e0e0e;
+								cursor: pointer;
+							}
+							#input_phone{
+								padding-left: 104px;
+							}
+						}
+					}
+					>.forget_pwd{
+						margin-top: 6px;
+						margin-left: 121px;
+						a{
+							float: right;
+							text-decoration: none;
+							font-size: 12px;
+							color: #6c6c6c;
+						
+						}
+					}
+					
+			}
+			>div.display{
+				display: block;
+			}
+		}
+	
+	}
+}
+
+
+
+// 底部部分
+footer{
+	>.copy_right{
+		padding-bottom: 25px;
+		border-top: 2px solid #ff0036;
+		>.copy_rightm{
+			width: 1190px;
+			margin: auto;
+			>.about_tmall{
+				font-size: 12px;
+				line-height: 25px;
+				padding: 5px 0;
+				>a{
+					color: black;
+					// text-decoration: none;
+				}
+			}
+			>.aboutali{
+				font-size: 12px;
+				padding: 5px 0;
+				>a{
+					color: black;
+					// text-decoration: none;
+					padding: 0 5px;
+				}
+				>span{
+					color: #fff;
+				}
+			}
+			>.about_add{
+				padding: 5px 0;
+				>span{
+					font-size: 12px;
+					padding-right: 60px;
+				}
+			}
+			>p{
+				font-size: 12px;
+			}
+		}
+	}
+}

@@ -1,0 +1,317 @@
+// 头部导航
+#hd_nav{
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 32px;
+	a , .caret{
+		color: #999999;
+	
+	}
+	a:hover{
+	
+			color: #ff0036;
+
+	}
+	#hd_left{
+		float: left;
+		font-size: 12px;
+		#denglu{
+			padding-left: 20px;
+			padding-right: 10px;
+		}
+		#zhuce{
+			padding: 0 10px;
+		}
+	}
+	#hd_right{
+		float: right;
+		font-size: 12px;
+		>ul {
+			.havb_ , .shoucang{
+				position: relative;
+				>#havb{
+					display: none;
+					position: absolute;
+					left: 0;
+					width: 92px;
+					background-color: white;
+					padding: 8px 10px;
+					line-height: 1.6;
+				}
+				>#shoucang{
+					display: none;
+					position: absolute;
+					left: 0;
+					width: 80px;
+					background-color: white;
+					padding: 8px 10px;
+					line-height: 1.6;
+				}
+			}
+			.havb_:hover{
+				background-color:white;
+			}
+			.havb_:hover #havb{
+				display: block;
+			}
+			.havb_:hover .caret{
+				border-bottom: 4px dashed;
+				border-bottom: 4px solid \9;
+				border-top: 0;
+			}
+			.shoucang:hover{
+				background-color:white;
+			}
+			.shoucang:hover #shoucang{
+				display: block;
+			}
+			.shoucang:hover .caret{
+				border-bottom: 4px dashed;
+				border-bottom: 4px solid \9;
+				border-top: 0;
+			}
+			>li{
+				float: left;
+				padding: 0 10px;
+			}
+			#business_{
+				position: relative;
+				>#business{
+					display: none;
+					position: absolute;
+					left: 0;
+					background-color: white;
+					width: 122px;
+					padding: 8px 10px;
+					line-height:22px;
+			
+					h3{
+						font-size: 12px;
+						color: #666666;
+						font-weight: 900;
+					}
+			
+				}
+			}
+			#business_:hover{
+				background-color: white;
+			}
+			#business_:hover #business{
+				display: block;
+			}
+			#business_:hover .caret{
+				border-bottom: 4px dashed;
+				border-bottom: 4px solid \9;
+				border-top: 0;
+			}
+			#navmore_{
+				>#navmore{
+					position: absolute;
+					display: none;
+					left: 174px;
+					width: 1198px;
+					padding: 25px 0;
+					background-color: white;
+					>#hot{
+						width: 455px;
+						float: left;
+						padding-left: 30px;
+						overflow: hidden;
+						>ul{
+							width: 475px;
+							>li{
+							float: left;
+							padding: 6px 0;
+							width: 84px;
+							line-height: 1.4;
+								}
+							}
+						
+						>h2{
+							font-size: 16px;
+							color: #f56a00;
+							padding-bottom: 8px;
+						}
+					}
+					>#market{
+						width: 455px;
+						float: left;
+						padding-left: 30px;
+						border-left: 1px solid #f5f5f5;
+						border-right: 1px solid #f5f5f5;
+						overflow: hidden;
+						>ul{
+							width: 455px;
+							>li{
+								float: left;
+								padding: 6px 0;
+								width: 87px;
+								line-height: 1.4;
+							}
+						}
+						>h2{
+							font-size: 16px;
+							color: #2263d4;
+							padding-bottom: 8px;
+						}
+					}
+					>#help{
+						width: 196px;
+						float: left;
+						padding-left: 30px;
+						overflow: hidden;
+						>ul{
+							width: 196px;
+							>li{
+								float: left;
+								padding: 6px 0;
+								width: 95px;
+								line-height: 1.4;
+							}
+						}
+						>h2{
+							font-size: 16px;
+							color: #666666 ;
+							padding-bottom: 8px;
+						}
+					}
+				}
+			}
+			#navmore_:hover{
+				background-color: white;
+			}
+			#navmore_:hover #navmore{
+				display: block;
+			}
+			#navmore_:hover .caret{
+				border-bottom: 4px dashed;
+				border-bottom: 4px solid \9;
+				border-top: 0;
+			}
+			
+		}
+		
+	}
+}
+form{
+	margin: 100px auto;
+	text-align: unset;
+	// width: 500px;
+	dd{
+		display: inline-block;
+		width: 610px;
+		
+		>input{
+			width: 223px;
+			height: 47px;
+			border: 1px solid #cccccc;
+			padding: 8px;
+			font-size: 14px;
+		}
+	}
+	dt{
+		display: inline-block;
+		font-size: 14px;
+		color: black;
+		padding-right: 10px;
+		font-weight: 400;
+		width: 120px;
+		text-align: right;
+		width: 610px;
+	}
+	dl{
+		margin-top: 20px;
+		// margin-left: 50px;
+	}
+	button{
+		display: block;
+		margin-top: 20px;
+		width: 180px;
+		height: 36px;
+		border-radius: 5px;
+		background-color: #ff0036;
+		color: white;
+		border: 0;
+		margin: 20px auto;
+	}
+}
+
+
+// 底部部分
+footer{
+	>div{
+		border-top: 1px solid #d1d7dc;
+		background-color: #fff;
+		padding-top: 33px;
+		>.tmall_guide{
+			width: 1190px;
+			margin: auto;
+			padding-bottom: 44px;
+			background: url(../../images/footer_cat136-50.png) 45px bottom no-repeat;
+			background-size: 68px 25px;
+				>dl{
+					float: left;
+				
+					margin: 0 82px;
+					>dt{
+						font-size: 16px;
+						font-weight: 700;
+						color: #646464;
+						height: 30px;
+						line-height: 30px;
+					}
+					>dd>a{
+						display: block;
+						font-size: 12px;
+						color: #8b8b8b;
+						height: 20px;
+						line-height: 20px;
+					}
+					>dd>img{
+						width: 105px;
+						height: 105px;
+					}
+				}
+			}
+	}
+	
+	>.copy_right{
+		padding-bottom: 25px;
+		border-top: 2px solid #ff0036;
+		>.copy_rightm{
+			width: 1190px;
+			margin: auto;
+			>.about_tmall{
+				font-size: 12px;
+				line-height: 25px;
+				padding: 5px 0;
+				>a{
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+			>.aboutali{
+				font-size: 12px;
+				padding: 5px 0;
+				>a{
+					color: #fff;
+					text-decoration: none;
+					padding: 0 5px;
+				}
+				>span{
+					color: #fff;
+				}
+			}
+			>.about_add{
+				padding: 5px 0;
+				>span{
+					font-size: 12px;
+					padding-right: 60px;
+				}
+			}
+			>p{
+				font-size: 12px;
+			}
+		}
+	}
+}
